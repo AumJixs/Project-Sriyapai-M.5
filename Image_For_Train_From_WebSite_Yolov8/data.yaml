@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Detect_TArm/data/images
+val: /content/drive/MyDrive/Detect_TArm/data/images
+test: /content/drive/MyDrive/Detect_TArm/data/images
+
+nc: 4
+names: ['black_plastic_bag', 'bottle', 'foam', 'plastic_bag']
+
+roboflow:
+  workspace: sriyapai-school
+  project: project-t-arm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sriyapai-school/project-t-arm/dataset/1
